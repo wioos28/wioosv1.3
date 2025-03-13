@@ -51,6 +51,16 @@ Toggle:Set(false)
 print(Toggle.Value)
 local Button = Section:AddButton({
 	["Title"] = "Menu Gangten Hub",
+	["Content"] = "",
+	["Icon"] = "rbxassetid://16932740082",
+	["Callback"] = function()
+	 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5c3af437cd698d64379cf75cacb9281.lua"))()
+	end
+})
+Toggle:Set(false)
+print(Toggle.Value)
+local Button = Section:AddButton({
+	["Title"] = "Menu Gangten Hub",
 	["Content"] = "fig lag",
 	["Icon"] = "rbxassetid://16932740082",
 	["Callback"] = function()
